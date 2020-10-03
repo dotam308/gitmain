@@ -8,6 +8,8 @@ int * newArr(char* filename, int& length){
     length = 0;
     ifstream file(filename);
     int x;
+	void foo(){
+	}
     while (file >> x) {
         array[length] = x;
         length++;
